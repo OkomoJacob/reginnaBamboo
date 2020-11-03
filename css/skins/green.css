@@ -1,0 +1,9 @@
+
+.section-title h2::before,
+.section-title h2::after{
+	background-color: #94d14f;	
+}
+
+.contact .contact-info-item .icon .fa{
+	color: #94d14f;
+}

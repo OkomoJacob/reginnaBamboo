@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-title{
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+.section-title h2{
+	font-size: 35px;
+	color: #302e4d;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+	margin: 0;
+	position:relative;
+}
+.section-title h2::before{
+	content: '';
+	height: 4px;
+	width: 80px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+}
+.section-title h2::after{
+	content: '';
+	height: 4px;
+	width: 40px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin-top:8px;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 30px;
+    padding-left: 30px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+
+/* Hover crimson color modify */
+/* Hover crimson color End */
+
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: rgb(157, 211, 50)!important;
+    font-weight: 300;
+    font-size: 16px;
+}
+.navbar-nav .btn{
+    border: 0;
+    background: rgb(157, 211, 50);
+    font-weight: 0;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.navbar-nav .btn:hover{
+    
+}
+/*---Slider---*/
+#slider{
+    width: 100%;    
+}
+/* --------slider end-------- */
+/*-----------About----------- */
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    background: #efefef;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    background-color: yellowgreen;
+    border: none;
+}
+#about .btn:hover{
+    background-color: rgb(83, 218, 49)!important;
+}
+.about-content{
+    padding-top: 20px;
+}
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+/*-------------About End------------- */
+/* ------------Projects and plans------------*/
+#project h1{
+    text-align: center;
+    color: #3f3a3a !important;
+    padding-bottom: 10px;
+}
+#project h1::after{
+    content: '';
+    background: rgb(154, 205, 50);
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 20px auto 5px;
+}
+#project{
+    padding: 40 0;
+    background: #efefef;
+}
+.single-project{
+    border-radius: 15px;
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.single-project:hover{
+    box-shadow: 0 2px 20px #333;
+}
+.project-head{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(154, 205, 50);
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.project-head h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* text-transform: uppercase;
+     */
+}
+.project-head p{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+#project span{
+    font-size: 15px;
+}
+/* -----project content--- */
+.project-content{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.project-content ul li{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+ul li:last-child{
+    border: none;
+}
+.fa-check-circle{
+    color: rgb(154, 205, 50);
+    margin-right: 10px;
+    font-size: 20px;
+}
+/* -----project content end--- */
+/* ------ project button----- */
+.project-button{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width:100%;
+}
+.join-btn{
+    background-color: rgb(154, 205, 50);
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+.join-btn:hover{
+    border-color: 1px solid #fff;
+    background-color: rgb(226, 158, 33);
+}
+a{
+    text-decoration: none !important;
+}
+/* ------------Project end------------*/
+
+/*------------- Gallery section Start -------------*/
+
+
+/* ------------Gallery end------------*/
+
+/*------------- Contact section Start -------------*/
+#contact{
+    background: #efefef;
+}
+.contact .contact-info-item{
+	-ms-flex: 0 0 33.33%;
+	flex: 0 0 33.33%;
+	max-width: 33.33%;
+	text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact .contact-info-item .icon{
+	display: inline-block;
+}
+.contact .contact-info-item .icon .fa{
+	font-size: 40px;
+}
+.contact .contact-info-item .h4{
+	font-size: 18px;
+	font-weight: 700;
+	color: #302e4d;
+	text-transform: capitalize;
+	margin: 15px 0 5px;
+}
+.contact .contact-info-item .p{
+	font-size: 16px;
+	line-height: 25px;
+	color: #504e70;
+	margin: 0;
+	font-weight: 400;
+}
+
+.contact .contact-form{
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.contact .contact-form .col-6{
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+.contact .contact-form .col-12{
+	/* background-color: red; */
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+.contact .contact-form .form-item{
+	margin-bottom: 30px;
+}
+.contact .contact-form .form-item .form-control{
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	border: 1px solid #d4d4e3;
+	padding: 10px 25px;
+	font-size: 16px;
+	color: #504e70;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.contact .contact-form .form-item .form-control:focus{
+	-webkit-box-shadow: 0 0 20px rgba(48,46,77,0.15);
+	box-shadow: 0 0 20px rgba(48,46,77,0.15);
+}
+.contact .contact-form .form-item textarea.form-control{
+	height: 140px;
+}
+.contact .contact-form .btn{
+	height: 50px;
+    padding: 0 50px;
+    background-color: yellowgreen;
+    border-radius: 25px;
+}
+/*------------- Contact section End -------------*/
+
